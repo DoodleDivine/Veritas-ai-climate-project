@@ -3,8 +3,9 @@
 TravelCast: A prototype climate-forecasting system designed specifically to help people find the safest,
 most comfortable time of year to visit a destination.
 
-Track: Climate
-**Team:** Aaron Genya John
+# Track: Climate
+
+# Team: GTEAM (Aaron Genya John)
 
 ## The problem
 
