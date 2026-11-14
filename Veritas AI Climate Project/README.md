@@ -3,7 +3,7 @@
 A prototype climate-forecasting system designed specifically to help people find the safest,
 most comfortable time of year to visit a destination.
 
-## Track: Climate 🌍
+## Track: AI + Climate 🌍
 
 ## Team: GTEAM
 ## Team Names: Aaron Genya John
