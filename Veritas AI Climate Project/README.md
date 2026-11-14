@@ -39,8 +39,10 @@ considered to be 'GoodMonth'in tabular form for travelers to analyse and decide 
 
 ## First test: 
 
-Relative Humidity: Below 75%
-Temperature: 10°C-25°C
+Relative Humidity: Below 75%,
+
+Temperature: 10°C-25°C,
+
 Wind Speed: 4.0 m/s
 
 Baseline scored 96.30% accuracy. Model scored 96.30% on held-out test data.
@@ -61,8 +63,8 @@ climate data.
 
 ## Third test: 
 
-Relative Humidity: Below 80%
-Temperature: 20°C-25°C
+Relative Humidity: Below 80%,
+Temperature: 20°C-25°C,
 Wind Speed: 5.5 m/s
 
 I Decided to change boundary data and see difference in results. This time it got worse(out of 132 rows,
@@ -71,8 +73,8 @@ This means that the AI model is generally blind to comfortable travel-months.
 
 ## Fourth test(Final): 
 
-Relative Humidity: Below 85%
-Temperature: 10°C-24°C
+Relative Humidity: Below 85%,
+Temperature: 10°C-24°C,
 Wind Speed: 5.0 m/s
 
 When changing the boundary to a more realistic, balanced range, the results improved drastically(out of 132 rows,
