@@ -10,8 +10,11 @@ most comfortable time of year to visit a destination.
 
 # The problem ❗
 
-Business consulatants, field geologists, and vacationers who need to plan travel
-windows avoiding extreme heat, sticky humidity, or disruptive winds.
+Climate patterns shift at a big range very quickly, weather conditions can catch travelers completely off guard.
+Whether it's for Business consultation meetings, field research, or vacations people often struggle to find safe,
+comfortable months to visit new destinations. Frequently running into extreme heat, sticky humidity, or disruptive
+winds that interrupt their schedules and experience. They need a reliable way to evaluate climate data so they can
+be able to plan ahead with confidence and no worries.
 
 # What I built 🔧
 
@@ -27,7 +30,10 @@ Data: Uses 11 years(2010-2020) of climate observations monthly, for any country 
 dataset (In the form of a CSV file). Data is cleaned by skipping header metadata and pivoting from wide to long format.
 
 Model: A Random Forest Classifier (from scikit-learn) that learns to classify comfortable travel months with the given boundaries
-for each of the climate features. 
+for each of the climate features.
+
+Engine: Using the Model's predictions, We could be able to create a demo engine that outputs the months
+considered to be 'GoodMonth'in tabular form for travelers to analyse and decide when to travel to their designated location.
 
 # Results 📝
 
